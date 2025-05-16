@@ -1,5 +1,5 @@
 
-This folder contains the necessary code to compute the various validation results for the updated PANGEA trajectory models (BM and no BM) and alternatives (original PANGEA and 20/2/20).
+This folder contains the necessary code to compute the various validation results for the updated PANGEA 2.0 trajectory models (BM and no BM) and alternatives (original PANGEA and 20/2/20).
 
 The folder includes:
 - `validation_code.R`: main script to run to perform the analysis

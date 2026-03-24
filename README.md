@@ -1,3 +1,43 @@
+# Paper information
+
+<b>Enhanced Dynamic Risk Stratification of Smoldering Multiple Myeloma</b>
+
+Published in <i>Nature Medicine</i>: <a href="https://doi.org/10.1038/s41591-026-04304-x">10.1038/s41591-026-04304-x</a>
+
+## Authors
+
+Floris Chabrun*<sup>1,2,3</sup>, Daniel E Schwartz*<sup>2,4</sup>, Susanna Gentile*<sup>5</sup>, Elias K Mai*<sup>6</sup>, Tulika R Gupta<sup>1,7</sup>, Jacqueline Perry<sup>1</sup>, David M Cordas dos Santos<sup>1,2</sup>, Thomas Hielscher<sup>8</sup>, Annika Werly<sup>6</sup>, Sophia K Schmidt<sup>6</sup>, Foteini Theodorakakou<sup>9</sup>, Despina Fotiou<sup>9</sup>, Christine Ivy Liacos<sup>9</sup>, Nikolaos Kanellias<sup>9</sup>, Noelia Collado Gisbert<sup>10</sup>, Esperanza Martin-Sanchez<sup>10</sup>, Rosalinda Termini<sup>10</sup>, Johannes Waldschmidt<sup>11</sup>, Selina J Chavda<sup>12</sup>, Louise Ainley<sup>12</sup>, Matteo Claudio Da Vià<sup>13</sup>, Claudio De Magistris<sup>13</sup>, Loredana Pettine<sup>13</sup>, Michael A Timonian<sup>1,2</sup>, Jean-Baptiste Alberge<sup>1,2,14</sup>, Vidhi Patel<sup>1</sup>, Patrick Costello<sup>1</sup>, Catherine Tobia<sup>1</sup>, Sally Phan<sup>1</sup>, Jennifer Lamb<sup>1</sup>, Maria-Theresa Silverio<sup>1</sup>, Maya Davis<sup>1</sup>, Elizabeth K O’Donnell<sup>1,2</sup>, Catherine R Marinac<sup>1,2</sup>, Omar Nadeem<sup>1,2</sup>, Niccolo Bolli<sup>13,15</sup>, Kwee Yong<sup>12</sup>, K. Martin Kortüm<sup>11</sup>, Hermann Einsele<sup>11</sup>, María-Victoria Mateos<sup>16</sup>, Shaji Kumar<sup>17</sup>, Jesus San Miguel<sup>10</sup>, Bruno Paiva<sup>10</sup>, Efstathios Kastritis<sup>9</sup>, Meletios A Dimopoulos<sup>9,18</sup>, Marc S Raab<sup>6</sup>, Lorenzo Trippa<sup>+</sup><sup>19</sup>, Irene M Ghobrial<sup>+</sup><sup>1,2</sup>
+
+*these authors contributed equally
+<br><sup>+</sup>these authors jointly supervised this work
+
+## Affiliations
+
+<br><sup>1</sup> Center for Early Detection and Interception-Blood Cancers, Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA
+<br><sup>2</sup> Harvard Medical School, Boston, MA
+<br><sup>3</sup> Laboratory of Biochemistry and Molecular Biology, University Hospital of Angers, University of Angers, Angers, France 
+<br><sup>4</sup> Massachusetts General Hospital Biostatistics, Somerville, MA
+<br><sup>5</sup> Sapienza University of Rome, Rome, Italy
+<br><sup>6</sup> Heidelberg Myeloma Center, Internal Medicine V, Hematology, Oncology and Rheumatology, Heidelberg University Hospital and Medical Faculty Heidelberg, Heidelberg, Germany
+<br><sup>7</sup> Yale School of Medicine, New Haven, CT
+<br><sup>8</sup> German Cancer Research Center (DKFZ), Division of Biostatistics, Heidelberg, Germany
+<br><sup>9</sup> National and Kapodistrian University of Athens, Athens, Greece
+<br><sup>10</sup> Cancer Center Clinica Universidad de Navarra (CCUN), CIMA Universidad de Navarra, Instituto de Investigación Sanitaria de Navarra (IDISNA), CIBER-ONC number CB16/12/00369
+<br><sup>11</sup> Department of Internal Medicine II, University Hospital of Würzburg, Würzburg, Germany
+<br><sup>12</sup> Department of Haematology, Cancer Institute, University College London, UK
+<br><sup>13</sup> Hematology section, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy
+<br><sup>14</sup> Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA, USA
+<br><sup>15</sup> Department of Oncology and Hemato-Oncology, University of Milan, Milan, Italy
+<br><sup>16</sup> Department of Hematology, University Hospital of Salamanca/IBSAL/CIC/CIBERONC, Salamanca, Spain
+<br><sup>17</sup> Department of Hematology, Mayo Clinic Comprehensive Cancer Center, Rochester, Minnesota, USA
+<br><sup>18</sup> Department of Medicine, Korea University, Seoul, South Korea
+<br><sup>19</sup> Department of Data Science, Dana-Farber Cancer Institute, Boston, MA
+
+## Abstract
+
+Accurate prediction of risk of progression from smoldering multiple myeloma (SMM) to active multiple myeloma (MM) is paramount to individualized early therapeutic strategies with minimum risk of overtreatment. Current risk stratification models do not account for evolving biomarker trajectories. We assembled a cohort of 2,344 patients with SMM from seven international centers with longitudinal clinical and biological data to train and validate the Precursor Asymptomatic Neoplasms by Group Effort Analysis (PANGEA)-SMM risk models. Four evolving biomarkers were significantly associated with shorter time to progression: M-protein increase ≥0.2 g dl−1, involved/uninvolved serum free light chain ratio increase ≥20, creatinine increase >25% and hemoglobin decrease ≥1.5 g dl−1. PANGEA-SMM outperforms established models, including the 20/2/20 and IMWG models, by more accurately predicting progression (C-statistic = 0.79), even without biomarker history (C-statistic = 0.78) or recent bone marrow biopsy (C-statistic = 0.78). We present PANGEA-SMM to the community as an easy-to-use, open-access tool for risk stratification in SMM. Validation tools are available to compare PANGEA-SMM to established models.
+
+# Code overview
 
 This folder contains the necessary code to compute the various validation results for the updated PANGEA 2.0 trajectory models (BM and no BM) and alternatives (original PANGEA and 20/2/20).
 
